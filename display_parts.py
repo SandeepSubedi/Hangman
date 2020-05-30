@@ -1,0 +1,32 @@
+def hang(punish):
+    if punish == 1:
+        print("            ____    ")
+        print("            |   |   ")
+        print("            |   O   ")
+        print("            |       ")
+        print("            |       ")
+        print("            |       ")
+    if punish == 2:
+        print("            ____    ")
+        print("            |   |   ")
+        print("            |   O   ")
+        print("            |   |   ")
+        print("            |   |   ")
+        print("            |   |   ")
+        print("            |       ")
+    if punish == 3:
+        print("            ____    ")
+        print("            |   |   ")
+        print("            |   O   ")
+        print("            |  /|\   ")
+        print("            |   |   ")
+        print("            |   |   ")
+        print("            |       ")
+    if punish == 4:
+        print("            ____    ")
+        print("            |   |   ")
+        print("            |   O   ")
+        print("            |  /|\   ")
+        print("            |   |   ")
+        print("            |   |   ")
+        print("            |  / \   ")
