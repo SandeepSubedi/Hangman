@@ -13,6 +13,5 @@ jobs:
         run: |
           pwd
           ls
-          cd Hangman
-          python3 games.py
+          python3 Hangman/game.py
         
