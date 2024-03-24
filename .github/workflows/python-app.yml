@@ -14,5 +14,5 @@ jobs:
       - name: Install dependencies
         run: |
           pwd
-          game.py
+          python3 game.py
         
