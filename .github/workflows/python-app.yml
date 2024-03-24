@@ -12,6 +12,5 @@ jobs:
       - name: Install dependencies
         run: |
           pwd
-          cd ..
-          python3 Hangman/game.py
+          game.py
         
