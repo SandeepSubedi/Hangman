@@ -5,25 +5,11 @@ name: Python application
 
 on:
   workflow_dispatch
-  
-  
- 
-  
-
-
-
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
-    steps:
-
-    - name: Set up Python 3.10
-
-      with:
-        python-version: "3.10"
-    - name: Install dependencies
-      run: |
-        python3 games.py
+    steps: 
+      - name: Install dependencies
+        run: |
+          python3 games.py
         
